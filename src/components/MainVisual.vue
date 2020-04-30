@@ -62,8 +62,8 @@ export default {
 }
 
 .title {
-  font-size: 5rem;
-  color: #fff;
+  font-size: 5rem!important;
+  color: #fff!important;
   letter-spacing: 0.1em;
   text-shadow: 5px 5px 0px rgba($color: #000000, $alpha: 0.65);
   font-family: 'Dosis', sans-serif;

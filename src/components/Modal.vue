@@ -40,7 +40,7 @@ export default {
 @import '../assets/sass/mixin';
 .modal {
   opacity: 0;
-  display: flex;
+  display: flex!important;
   visibility: hidden;
   &-wapper {
     &.is-open {
@@ -53,16 +53,16 @@ export default {
   }
   &-close {
     @include sp {
-      top: spn(40);
-      right: spn(30);
+      top: spn(40)!important;
+      right: spn(30)!important;
     }
     &:before {
-      width: 100%;
-      height: 3px;
+      width: 100%!important;
+      height: 3px!important;
     }
     &:after {
-      width: 3px;
-      height: 100%;
+      width: 3px!important;
+      height: 100%!important;
     }
   }
   .portfolio {
