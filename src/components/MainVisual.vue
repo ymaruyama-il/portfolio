@@ -68,7 +68,7 @@ export default {
   text-shadow: 5px 5px 0px rgba($color: #000000, $alpha: 0.65);
   font-family: 'Dosis', sans-serif;
   @include sp {
-    font-size: spn(50);
+    font-size: spn(50)!important;
   }
 }
 
