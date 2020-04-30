@@ -1,5 +1,5 @@
 <template>
-  <div id="mv">
+  <div id="mv" :style="{ 'background-image':' url(' + bgImgSrc + ')'}">
     <div id="main" class="has-text-centered">
       <h1 class="title">PORTFOLIO</h1>
       <a href="https://bulma.io" target="_blank">
@@ -30,11 +30,21 @@
   </div>
 </template>
 
+<script>
+export default {
+  data () {
+    return {
+      bgImgSrc: require('@/assets/images/bgimage.jpg')
+    }
+  }
+}
+</script>
+
 <style lang="scss">
 @import '../assets/sass/mixin';
 #mv {
   position: relative;
-  background-image: url('../assets/images/bgimage.jpg');
+  background-color: rgb(0, 5, 75);
   background-size: cover;
   height: 100vh;
   min-height: 600px;
