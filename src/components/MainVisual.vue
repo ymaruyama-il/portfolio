@@ -6,7 +6,7 @@
         <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
       </a>
       <div class="scroll">
-        <a class="scroll__icon" href="#profile" v-smooth-scroll="{ duration: 1000 }"><span></span><span></span><span></span>Scroll</a>
+        <a class="scroll__icon" href="#profile" v-smooth-scroll="{ duration: 1000, offset:-60 }"><span></span><span></span><span></span>Scroll</a>
       </div>
     </div>
     <vue-particles
