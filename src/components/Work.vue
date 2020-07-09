@@ -32,7 +32,8 @@ export default {
           pageTitle: 'キヤノン：綴プロジェクト',
           url: 'https://global.canon/ja/tsuzuri/',
           memberList: ['ディレクター1名', 'アートディレクター兼デザイナー1名', 'コーダー3名'],
-          skillList: ['HTML5', 'CSS3', 'jquery']
+          skillList: ['HTML5', 'CSS3', 'jquery'],
+          period: '約3ヶ月'
         },
         {
           img: require('../assets/images/papalabo.png'),
@@ -40,7 +41,8 @@ export default {
           pageTitle: '電通　パパラボ',
           url: 'https://www.projects.dentsu.jp/papalabo/',
           memberList: ['ディレクター1名', 'デザイナー1名', 'フロントエンド2名'],
-          skillList: ['HTML5', 'CSS3/Stylus', 'jquery', 'pug', 'gulp3', 'webpack4']
+          skillList: ['HTML5', 'CSS3/Stylus', 'jquery', 'pug', 'gulp3', 'webpack4'],
+          period: '約2ヶ月'
         },
         {
           img: require('../assets/images/tomoyama.png'),
@@ -48,7 +50,8 @@ export default {
           pageTitle: '巴山グループ',
           url: 'https://www.tomoyama-group.co.jp/',
           memberList: ['ディレクター1名', 'デザイナー1名', 'フロントエンド・コーダー3名'],
-          skillList: ['HTML5', 'CSS3/Sass', 'jQuery', 'gulp3', 'webpack4', 'ejs']
+          skillList: ['HTML5', 'CSS3/Sass', 'jQuery', 'gulp3', 'webpack4', 'ejs'],
+          period: '約2〜3ヶ月'
         },
         {
           img: require('../assets/images/daiichi.png'),
@@ -56,15 +59,17 @@ export default {
           pageTitle: '第一生命　ライフプロフェッショナル職　新卒リクルートサイト',
           url: 'https://www.dai-ichi-life-professionals.jp/',
           memberList: ['ディレクター2名', 'デザイナー1名', 'フロントエンド・コーダー3名'],
-          skillList: ['HTML5', 'CSS3/Stylus', 'jQuery', 'gulp3', 'webpack4', 'pug']
+          skillList: ['HTML5', 'CSS3/Stylus', 'jQuery', 'gulp3', 'webpack4', 'pug'],
+          period: '約8ヶ月'
         },
         {
           img: require('../assets/images/shinsei.png'),
           title: '外貨預金シミュレーションページの制作',
           pageTitle: '新生銀行　外貨預金シミュレーション',
-          url: 'https://www.dai-ichi-life-professionals.jp/',
-          memberList: ['PM1名', 'フロントエンド・コーダー2名'],
-          skillList: ['HTML5', 'CSS3/Sass', 'javascript/jQuery', 'webpack4']
+          url: 'https://www.shinseibank.com/gaika/cam/simulator/',
+          memberList: ['PM1名', 'フロントエンド2名'],
+          skillList: ['HTML5', 'CSS3/Sass', 'javascript/jQuery', 'webpack4'],
+          period: '約6ヶ月'
         },
         {
           img: require('../assets/images/hitachi.png'),
@@ -72,7 +77,8 @@ export default {
           pageTitle: '探してみよう日立ソリューションズ',
           url: 'https://www.hitachi-solutions.co.jp/sagasol/',
           memberList: ['ディレクター1名', 'フロントエンド2名'],
-          skillList: ['HTML5', 'CSS3/Stylus', 'Nuxt.js', 'pug']
+          skillList: ['HTML5', 'CSS3/Stylus', 'Nuxt.js', 'pug'],
+          period: '約6ヶ月'
         },
         {
           img: require('../assets/images/lemonsourgp.png'),
@@ -80,7 +86,8 @@ export default {
           pageTitle: 'ぐるなび　レモンサワーグランプリ2019',
           url: 'https://pr.gnavi.co.jp/promo/lemonsour-grandprix2019/',
           memberList: ['ディレクター1名', 'フロントエンド2名'],
-          skillList: ['HTML5', 'CSS3/Sass', 'jquery', 'gulp4']
+          skillList: ['HTML5', 'CSS3/Sass', 'jquery', 'gulp4'],
+          period: '約1年'
         },
         {
           img: require('../assets/images/meshitan.png'),
@@ -88,15 +95,26 @@ export default {
           pageTitle: '新感覚ARアプリ めし探',
           url: 'https://www.meshitan.com/',
           memberList: ['ディレクター1名', 'デザイナー1名', 'フロントエンド2名'],
-          skillList: ['HTML5', 'CSS3/Sass', 'jQuery', 'gulp4', 'ejs']
+          skillList: ['HTML5', 'CSS3/Sass', 'jQuery', 'gulp4', 'ejs'],
+          period: '約1ヶ月'
         },
         {
           img: require('../assets/images/interlink.png'),
-          title: '自社コーポレートサイト　リニューアル',
+          title: '自社コーポレートサイトリニューアル',
           pageTitle: 'インターリンク株式会社',
           url: 'https://www.interlink.ne.jp',
           memberList: ['ディレクター2名', 'デザイナー1名', 'フロントエンド2名'],
-          skillList: ['HTML5', 'CSS3/Sass', 'jquery', 'gulp4']
+          skillList: ['HTML5', 'CSS3/Sass', 'jquery', 'gulp4', 'ejs', 'webpack4'],
+          period: '約1ヶ月'
+        },
+        {
+          img: require('../assets/images/interconnect.png'),
+          title: 'コーポレートサイトリニューアル',
+          pageTitle: '株式会社インターコネクト',
+          url: 'https://www.inter-connect.co.jp/',
+          memberList: ['ディレクター1名', 'デザイナー1名', 'フロントエンド2名'],
+          skillList: ['HTML5', 'CSS3/Sass', 'javascript(jquery)', 'gulp4'],
+          period: '約2週間'
         }
       ]
     }

@@ -17,6 +17,10 @@
             </ul>
           </section>
           <section class="portfolio__sectionInner">
+            <h3 class="portfolio__heading">製作期間</h3>
+            <p>{{ val.period }}</p>
+          </section>
+          <section class="portfolio__sectionInner">
             <h3 class="portfolio__heading">使用言語・ツール</h3>
             <ul class="portfolio__list">
               <li v-for="skill in val.skillList" :key="skill">{{ skill }}</li>
