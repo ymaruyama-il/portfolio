@@ -1,3 +1,24 @@
+# はじめに
+yarnのインストールが必要です。
+下記ページを参照してインストールをお願いします。
+https://classic.yarnpkg.com/ja/docs/install#mac-stable
+
+yarnのインストールが済んだら、下記のコマンドで開発モードになります。
+localhost:8080が起動するので、ブラウザで開いてみてください。
+
+```
+yarn start
+```
+
+htmlなどの出力は下記のコマンドで実行します。
+
+```
+yarn build
+```
+
+masterにマージすると、下記のURLに本番公開されます。
+https://ymaruyama-il.github.io/portfolio/
+
 # vue-app
 
 > A Vue.js project
