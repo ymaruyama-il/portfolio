@@ -18,6 +18,7 @@
 
 <script>
 import Modal from './Modal'
+// import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock'
 export default {
   name: 'Work',
   components: { Modal },
@@ -25,6 +26,7 @@ export default {
     return {
       isActive: false,
       postItem: '',
+      scrollY: '',
       items: [
         {
           img: require('../assets/images/canon.png'),
@@ -115,6 +117,15 @@ export default {
           memberList: ['ディレクター1名', 'デザイナー1名', 'フロントエンド2名'],
           skillList: ['HTML5', 'CSS3/Sass', 'javascript(jquery)', 'gulp4'],
           period: '約2週間'
+        },
+        {
+          img: require('../assets/images/hanasaku.png'),
+          title: '生命保険商品案内ページ制作',
+          pageTitle: 'はなさく生命',
+          url: 'https://www.direct.life8739.co.jp/',
+          memberList: ['ディレクター2名', 'デザイナー3名', 'フロントエンド3名'],
+          skillList: ['HTML5', 'CSS3/Sass', 'jquery', 'gulp4', 'ejs'],
+          period: '約5ヶ月'
         }
       ]
     }
@@ -123,9 +134,21 @@ export default {
     openModal (item) {
       this.isActive = true
       this.postItem = item
+
+      // モーダルを開いたときに背景を固定する
+      const body = document.body
+      this.scrollY = window.pageYOffset
+      body.style.position = 'fixed'
+      body.style.top = this.scrollY * -1 + 'px'
     },
     closeModal () {
       this.isActive = false
+
+      // モーダルを閉じたら背景固定を解除する
+      const body = document.body
+      body.style.position = ''
+      body.style.top = ''
+      window.scrollTo(0, this.scrollY)
     }
   }
 }
