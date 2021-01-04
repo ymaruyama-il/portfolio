@@ -116,6 +116,9 @@ export default {
     }
     &__url {
       margin-bottom: 2rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
       @include sp {
         margin-bottom: spn(40);
       }

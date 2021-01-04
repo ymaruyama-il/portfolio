@@ -140,5 +140,8 @@ export default {
 
 #particles-js {
   height: 100vh;
+  @include sp {
+    height: 100%;
+  }
 }
 </style>
