@@ -7,7 +7,7 @@
         <h3 class="profile__heading">Language</h3>
         <ul class="profile__list">
           <li>HTML5（ejs/pug）</li>
-          <li>CSS3（Sass/less/Stylus）</li>
+          <li>CSS3（Scss/less/Stylus）</li>
           <li>javascript</li>
           <li>jQuery</li>
         </ul>
