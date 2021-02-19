@@ -30,8 +30,8 @@ export default {
       items: [
         {
           img: require('../assets/images/canon.png'),
-          title: '社会貢献活動（文化財未来継承プロジェクト）紹介サイト制作',
-          pageTitle: 'キヤノン：綴プロジェクト',
+          title: '企業プロジェクト紹介サイトの制作',
+          pageTitle: '企業プロジェクト紹介サイト',
           url: 'https://global.canon/ja/tsuzuri/',
           memberList: ['ディレクター1名', 'アートディレクター兼デザイナー1名', 'コーダー3名'],
           skillList: ['HTML5', 'CSS3', 'jQuery'],
@@ -39,8 +39,8 @@ export default {
         },
         {
           img: require('../assets/images/papalabo.png'),
-          title: '企業社内プロジェクト紹介サイト制作',
-          pageTitle: '電通　パパラボ',
+          title: '企業プロジェクト紹介サイトの制作',
+          pageTitle: '企業プロジェクト紹介サイト',
           url: 'https://www.projects.dentsu.jp/papalabo/',
           memberList: ['ディレクター1名', 'デザイナー1名', 'フロントエンド2名'],
           skillList: ['HTML5', 'CSS3/Stylus', 'jQuery', 'pug', 'gulp3', 'webpack4'],
@@ -48,8 +48,8 @@ export default {
         },
         {
           img: require('../assets/images/tomoyama.png'),
-          title: 'コーポレートサイトリニューアル',
-          pageTitle: '巴山グループ',
+          title: 'コーポレートサイトのリニューアル',
+          pageTitle: '建設会社コーポレートサイト',
           url: 'https://www.tomoyama-group.co.jp/',
           memberList: ['ディレクター1名', 'デザイナー1名', 'フロントエンド・コーダー3名'],
           skillList: ['HTML5', 'CSS3/Scss', 'jQuery', 'gulp3', 'webpack4', 'ejs'],
@@ -57,26 +57,17 @@ export default {
         },
         {
           img: require('../assets/images/daiichi.png'),
-          title: 'リクルートサイト制作',
-          pageTitle: '第一生命　ライフプロフェッショナル職　新卒リクルートサイト',
+          title: 'リクルートサイトの制作',
+          pageTitle: '生命保険会社　営業職リクルートサイト',
           url: 'https://www.dai-ichi-life-professionals.jp/',
           memberList: ['ディレクター2名', 'デザイナー1名', 'フロントエンド・コーダー3名'],
           skillList: ['HTML5', 'CSS3/Stylus', 'jQuery', 'gulp3', 'webpack4', 'pug'],
           period: '約8ヶ月'
         },
         {
-          img: require('../assets/images/shinsei.png'),
-          title: '外貨預金シミュレーションページの制作',
-          pageTitle: '新生銀行　外貨預金シミュレーション',
-          url: 'https://www.shinseibank.com/gaika/cam/simulator/',
-          memberList: ['PM1名', 'フロントエンド2名'],
-          skillList: ['HTML5', 'CSS3/Scss', 'javascript/jQuery', 'webpack4'],
-          period: '約6ヶ月'
-        },
-        {
           img: require('../assets/images/hitachi.png'),
           title: '商材やサービスの紹介サイトの制作',
-          pageTitle: '探してみよう日立ソリューションズ',
+          pageTitle: 'メーカーの商材やサービスの紹介サイト',
           url: 'https://www.hitachi-solutions.co.jp/sagasol/',
           memberList: ['ディレクター1名', 'フロントエンド2名'],
           skillList: ['HTML5', 'CSS3/Stylus/Scss', 'Nuxt.js', 'pug'],
@@ -85,7 +76,7 @@ export default {
         {
           img: require('../assets/images/lemonsourgp.png'),
           title: '飲食サイトのキャンペーンページの制作',
-          pageTitle: 'ぐるなび　レモンサワーグランプリ2019',
+          pageTitle: '飲食サイトのキャンペーンページ',
           url: 'https://pr.gnavi.co.jp/promo/lemonsour-grandprix2019/',
           memberList: ['ディレクター1名', 'フロントエンド2名'],
           skillList: ['HTML5', 'CSS3/Scss', 'jQuery', 'gulp4'],
@@ -93,8 +84,8 @@ export default {
         },
         {
           img: require('../assets/images/meshitan.png'),
-          title: '飲食店検索アプリのページ制作',
-          pageTitle: '新感覚ARアプリ めし探',
+          title: '飲食店検索アプの公式サイトの制作',
+          pageTitle: '飲食店検索アプリ　公式サイト',
           url: 'https://www.meshitan.com/',
           memberList: ['ディレクター1名', 'デザイナー1名', 'フロントエンド2名'],
           skillList: ['HTML5', 'CSS3/Scss', 'jQuery', 'gulp4', 'ejs'],
@@ -102,8 +93,8 @@ export default {
         },
         {
           img: require('../assets/images/interconnect.png'),
-          title: 'コーポレートサイトリニューアル',
-          pageTitle: '株式会社インターコネクト',
+          title: 'コーポレートサイトのリニューアル',
+          pageTitle: 'IT系企業コーポレートサイト',
           url: 'https://www.inter-connect.co.jp/',
           memberList: ['ディレクター1名', 'デザイナー1名', 'フロントエンド2名'],
           skillList: ['HTML5', 'CSS3/Scss', 'javascript(jQuery)', 'gulp4', 'ejs'],
@@ -112,20 +103,11 @@ export default {
         {
           img: require('../assets/images/hanasaku.png'),
           title: '生命保険商品案内ページ制作',
-          pageTitle: 'はなさく生命',
+          pageTitle: '生命保険会社　商品案内ページ',
           url: 'https://www.direct.life8739.co.jp/',
           memberList: ['ディレクター2名', 'デザイナー3名', 'フロントエンド3名'],
-          skillList: ['HTML5', 'CSS3/Scss', 'jQuery', 'gulp4', 'ejs'],
+          skillList: ['HTML5', 'CSS3/Scss', 'jQuery', 'webpack', 'gulp4', 'ejs'],
           period: '約5ヶ月'
-        },
-        {
-          img: require('../assets/images/kenkatsu.png'),
-          title: '生命保険会社　LP制作',
-          pageTitle: 'みんなの健活プロジェクト',
-          url: 'https://www.meijiyasuda.co.jp/enjoy/ld/kenkatsu/project/achievement/',
-          memberList: ['ディレクター1名', 'フロントエンド1名'],
-          skillList: ['HTML5', 'CSS3/Scss', 'javascript/jQuery', 'webpack4'],
-          period: '約5日'
         }
       ]
     }
